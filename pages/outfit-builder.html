@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Venora | Outfit Builder</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Outfit Builder CSS -->
+    <link rel="stylesheet" href="../css/outfit-builder.css">
+
+</head>
+
+<body>
+
+<!-- =========================================
+                NAVBAR
+========================================= -->
+
+<nav class="navbar navbar-expand-lg fixed-top">
+
+    <div class="container">
+
+        <a class="navbar-brand" href="../home.html">
+            Venora
+        </a>
+
+        <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+
+            <ul class="navbar-nav mx-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../home.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html">
+                        Shop
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="collections.html">
+                        Collections
+                    </a>
+                </li>
+
+                <li class="nav-item">
+    <a class="nav-link active" href="outfit-builder.html">
+        Outfit Builder
+    </a>
+</li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<!-- =========================================
+                HERO
+========================================= -->
+
+<section class="builder-hero">
+
+    <div class="container">
+
+        <div class="hero-content text-center">
+
+            <h1>Outfit Builder</h1>
+
+            <p>
+
+                Create your perfect look by styling tops,
+                bottoms, footwear and bags together.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================
+            CHOOSE STYLE
+========================================= -->
+
+<section class="choose-style">
+
+    <div class="container">
+
+        <div class="section-title text-center">
+
+            <h2>Choose Your Style</h2>
+
+            <p>
+
+                Select how you'd like to build your outfit.
+
+            </p>
+
+        </div>
+
+        <div class="row justify-content-center mt-5">
+
+            <!-- TOP STYLE -->
+
+            <div class="col-lg-5 col-md-6 mb-4">
+
+                <div class="style-card"
+                    id="topsCard">
+
+                    <div class="style-icon">
+
+                        👚
+
+                    </div>
+
+                    <h3>
+
+                        Tops
+
+                    </h3>
+
+                    <p>
+
+                        Mix and match tops,
+                        bottoms,
+                        footwear and bags.
+
+                    </p>
+
+                    <button class="select-btn">
+
+                        Start Styling
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- DRESS STYLE -->
+
+            <div class="col-lg-5 col-md-6 mb-4">
+
+                <div class="style-card"
+                    id="dressesCard">
+
+                    <div class="style-icon">
+
+                        👗
+
+                    </div>
+
+                    <h3>
+
+                        Dresses
+
+                    </h3>
+
+                    <p>
+
+                        Style dresses
+                        with footwear
+                        and bags.
+
+                    </p>
+
+                    <button class="select-btn">
+
+                        Start Styling
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================
+            BUILDER SECTION
+========================================= -->
+
+<section id="builderSection">
+
+    <div class="container">
+
+        <!-- ==========================
+             OUTFIT PREVIEW
+        ========================== -->
+
+        <div class="outfit-preview">
+
+            <h2 class="preview-title">
+                Your Outfit
+            </h2>
+
+            <div class="preview-layout">
+
+                <!-- LEFT SIDE -->
+
+<div class="outfit-left">
+
+    <!-- TOP -->
+
+    <div class="preview-item top-preview">
+        
+
+    <div class="price-tag" id="topPrice">₹0</div>
+
+    <div class="top-row">
+
+        <button class="arrow-btn" id="prevTop">
+            <i class="bi bi-chevron-left"></i>
+        </button>
+
+        <img id="selectedTop"
+             src=""
+             alt="">
+
+        <button class="arrow-btn" id="nextTop">
+            <i class="bi bi-chevron-right"></i>
+        </button>
+
+    </div>
+
+</div>
+<!-- DRESS -->
+
+<div class="preview-item dress-preview">
+
+    <div class="price-tag" id="dressPrice">₹0</div>
+
+    <div class="product-row">
+
+        <button class="arrow-btn" id="prevDress">
+            <i class="bi bi-chevron-left"></i>
+        </button>
+
+        <div class="bottom-content">
+
+            <p id="dressPlaceholder" class="placeholder-text">
+                Select Dress
+            </p>
+
+            <img id="selectedDress"
+                 src=""
+                 alt="">
+
+        </div>
+
+        <button class="arrow-btn" id="nextDress">
+            <i class="bi bi-chevron-right"></i>
+        </button>
+
+    </div>
+
+</div>
+    <div class="preview-item bottom-preview">
+
+    <div class="price-tag" id="bottomPrice">₹0</div>
+
+    <div class="product-row">
+
+        <button class="arrow-btn" id="prevBottom">
+            <i class="bi bi-chevron-left"></i>
+        </button>
+
+        <div class="bottom-content">
+
+            <p id="bottomPlaceholder" class="placeholder-text">
+                
+                Select Bottom
+            </p>
+
+            <img id="selectedBottom" src="" alt="">
+
+        </div>
+
+        <button class="arrow-btn" id="nextBottom">
+            <i class="bi bi-chevron-right"></i>
+        </button>
+
+    </div>
+
+</div>
+    <!-- SHOES -->
+
+<div class="preview-item shoes-preview">
+
+    <div class="price-tag" id="shoePrice">₹0</div>
+
+    <div class="product-row">
+
+        <button class="arrow-btn" id="prevShoe">
+            <i class="bi bi-chevron-left"></i>
+        </button>
+
+        <div class="bottom-content">
+
+            <p id="shoePlaceholder" class="placeholder-text">
+                Select Footwear
+            </p>
+
+            <img id="selectedShoe"
+                 src=""
+                 alt="">
+
+        </div>
+
+        <button class="arrow-btn" id="nextShoe">
+            <i class="bi bi-chevron-right"></i>
+        </button>
+
+    </div>
+
+</div>
+
+</div> <!-- outfit-left -->
+
+<!-- RIGHT SIDE -->
+
+<div class="outfit-right">
+
+    <div class="preview-item bag-preview">
+
+        <div class="price-tag" id="bagPrice">₹0</div>
+
+        <div class="product-row">
+
+            <button class="arrow-btn" id="prevBag">
+                <i class="bi bi-chevron-left"></i>
+            </button>
+
+            <div class="bottom-content">
+
+                <p id="bagPlaceholder" class="placeholder-text">
+                    Select Bag
+                </p>
+
+                <img id="selectedBag"
+                     src=""
+                     alt="">
+
+            </div>
+
+            <button class="arrow-btn" id="nextBag">
+                <i class="bi bi-chevron-right"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</div> <!-- outfit-right -->
+
+</div> <!-- preview-layout -->
+
+<div class="save-outfit">
+
+    <button id="addOutfitBtn" class="save-btn">
+    <i class="bi bi-cart-plus-fill"></i>
+    Add Outfit to Cart
+</button>
+
+</div>
+
+</div> <!-- outfit-preview -->
+
+        <!-- ==========================
+             TOP PRODUCTS
+        ========================== -->
+
+        <div id="topsBuilder"
+             class="builder-section">
+
+            <h3>
+
+                👚 Choose Your Top
+
+            </h3>
+
+            <div id="topsContainer"
+                 class="product-slider">
+
+            </div>
+
+        </div>
+                <!-- ==========================
+             DRESS PRODUCTS
+        ========================== -->
+
+        <div id="dressBuilder"
+             class="builder-section"
+             style="display:none;">
+
+            <h3>
+
+                👗 Choose Your Dress
+
+            </h3>
+
+            <div id="dressContainer"
+                 class="product-slider">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================
+                PRODUCT DATA
+========================================= -->
+
+<script src="../js/shopproducts.js"></script>
+
+<script src="../js/collectionProducts.js"></script>
+
+<!-- =========================================
+            OUTFIT BUILDER JS
+========================================= -->
+
+<script src="../js/outfit-builder.js"></script>
+
+<!-- =========================================
+            BOOTSTRAP JS
+========================================= -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

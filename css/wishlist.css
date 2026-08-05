@@ -1,0 +1,141 @@
+/* ===================================
+   WISHLIST PAGE
+=================================== */
+
+.wishlist-hero{
+    padding:140px 0 60px;
+    background:#f8f4ec;
+    text-align:center;
+}
+
+.wishlist-hero h1{
+    font-family:"Playfair Display",serif;
+    font-size:52px;
+    color:#2d2d2d;
+    margin-bottom:10px;
+}
+
+.wishlist-hero p{
+    color:#777;
+    font-size:17px;
+}
+
+.wishlist-section{
+    padding:70px 0;
+    min-height:70vh;
+}
+
+.wishlist-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:40px;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+#wishlistCount{
+    font-weight:600;
+    margin:0;
+}
+
+.wishlist-card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+    height:100%;
+}
+
+.wishlist-card:hover{
+    transform:translateY(-8px);
+}
+
+.wishlist-card img{
+    width:100%;
+    height:240px;
+    object-fit:contain;
+    background:#fff;
+    padding:10px;
+}
+
+.wishlist-info{
+    padding:18px;
+}
+
+.wishlist-info h5{
+    font-size:18px;
+    margin-bottom:8px;
+}
+
+.category{
+    color:#888;
+    font-size:14px;
+}
+
+.price{
+    color:#b8860b;
+    font-size:22px;
+    font-weight:600;
+    margin:12px 0;
+}
+
+.wishlist-buttons{
+    display:flex;
+    gap:10px;
+}
+
+.wishlist-buttons a,
+.wishlist-buttons button{
+    flex:1;
+}
+
+.remove-btn{
+    border:none;
+    background:#dc3545;
+    color:#fff;
+    border-radius:8px;
+    padding:10px;
+    transition:.3s;
+}
+
+.remove-btn:hover{
+    background:#bb2d3b;
+}
+
+.empty-wishlist{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.empty-wishlist i{
+    font-size:80px;
+    color:#c7a46a;
+}
+
+.empty-wishlist h3{
+    margin-top:25px;
+}
+
+.empty-wishlist p{
+    color:#777;
+    margin-bottom:25px;
+}
+
+@media(max-width:768px){
+
+.wishlist-hero h1{
+font-size:38px;
+}
+
+.wishlist-header{
+flex-direction:column;
+align-items:flex-start;
+}
+
+.wishlist-card img{
+height:260px;
+}
+
+}

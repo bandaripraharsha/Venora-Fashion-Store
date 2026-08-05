@@ -1,0 +1,176 @@
+/* ===================================
+   ABOUT PAGE
+=================================== */
+
+.about-hero{
+    padding:140px 0 70px;
+    background:#f8f4ec;
+    text-align:center;
+}
+
+.about-hero h1{
+    font-family:"Playfair Display",serif;
+    font-size:58px;
+    color:#3b3027;
+    margin-bottom:15px;
+}
+
+.about-hero p{
+    font-size:18px;
+    color:#7a6b5f;
+}
+
+/* ========================= */
+
+.about-story{
+    padding:90px 0;
+    background:#fffdf9;
+}
+
+.about-story img{
+    width:100%;
+    border-radius:24px;
+    box-shadow:0 18px 45px rgba(0,0,0,.12);
+    transition:.4s;
+}
+
+.about-story img:hover{
+    transform:scale(1.02);
+}
+
+.about-story h2{
+    font-family:"Playfair Display",serif;
+    font-size:42px;
+    color:#3b3027;
+    margin-bottom:25px;
+}
+
+.about-story p{
+    font-size:17px;
+    line-height:1.9;
+    color:#666;
+    margin-bottom:18px;
+}
+
+/* ========================= */
+
+.why-us{
+    background:#f8f4ec;
+    padding:90px 0;
+}
+
+.why-us h2{
+    font-family:"Playfair Display",serif;
+    font-size:42px;
+    color:#3b3027;
+}
+
+.feature-box{
+    background:white;
+    border-radius:20px;
+    padding:40px 30px;
+    text-align:center;
+    height:100%;
+    transition:.35s;
+    box-shadow:0 8px 22px rgba(0,0,0,.08);
+}
+
+.feature-box:hover{
+    transform:translateY(-10px);
+    box-shadow:0 18px 40px rgba(0,0,0,.12);
+}
+
+.feature-box i{
+    font-size:48px;
+    color:#b9915e;
+    margin-bottom:20px;
+}
+
+.feature-box h4{
+    font-family:"Playfair Display",serif;
+    margin-bottom:18px;
+    color:#3b3027;
+}
+
+.feature-box p{
+    color:#666;
+    line-height:1.8;
+}
+
+/* ========================= */
+
+.footer{
+    background:#3b3027;
+    color:white;
+    padding:70px 0 25px;
+}
+
+.footer h4,
+.footer h5{
+    color:#f8f4ec;
+    margin-bottom:20px;
+}
+
+.footer p,
+.footer li{
+    color:#d8d0c8;
+}
+
+.footer ul{
+    padding:0;
+}
+
+.footer li{
+    list-style:none;
+    margin-bottom:12px;
+}
+
+.footer a{
+    text-decoration:none;
+    color:#d8d0c8;
+    transition:.3s;
+}
+
+.footer a:hover{
+    color:#c89d65;
+}
+
+.footer hr{
+    margin:35px 0 20px;
+    border-color:rgba(255,255,255,.15);
+}
+
+/* ========================= */
+
+@media(max-width:991px){
+
+.about-story{
+text-align:center;
+}
+
+.about-story img{
+margin-bottom:40px;
+}
+
+}
+
+@media(max-width:768px){
+
+.about-hero{
+padding:120px 0 50px;
+}
+
+.about-hero h1{
+font-size:42px;
+}
+
+.about-story h2,
+.why-us h2{
+font-size:34px;
+}
+
+.feature-box{
+padding:30px 22px;
+}
+
+}
