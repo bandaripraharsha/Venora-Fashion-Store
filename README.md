@@ -1,41 +1,38 @@
-# 👗 Venora – Luxury Women's Fashion Store
+# Venora – Luxury Women's Fashion Store
 
-A modern, responsive women's fashion e-commerce website designed with an elegant luxury aesthetic. Venora provides a clean shopping experience with beautifully organized collections, interactive outfit building, wishlist functionality, and a fully responsive interface across desktop, tablet, and mobile devices.
+A modern, responsive women's fashion e-commerce website built using HTML, CSS, JavaScript, and Bootstrap. The project focuses on delivering a clean shopping experience through an elegant user interface, responsive layouts, curated fashion collections, and interactive shopping features.
 
-## 🌐 Live Demo
+## Live Demo
 
-🔗 https://venora-fashion-store.netlify.app/
-
----
-
-## 📖 About the Project
-
-Venora is a front-end fashion shopping website created to provide users with a premium online shopping experience. The project focuses on elegant UI design, responsive layouts, and interactive features that simulate a modern fashion e-commerce platform.
-
-The website includes dedicated shopping pages, curated fashion collections, product browsing, an outfit builder, wishlist, shopping cart, and responsive navigation.
+https://venora-fashion-store.netlify.app/
 
 ---
 
-## ✨ Features
+## Project Overview
 
-- 🏠 Modern Home Page
-- 🛍️ Shop Page
-- 👗 Fashion Collections
-- ❤️ Wishlist
-- 🛒 Shopping Cart
-- 🔍 Product Search
-- 👠 Outfit Builder
-- 📱 Fully Responsive Design
-- 🎨 Luxury Fashion UI
-- ⚡ Smooth Animations
-- 📦 Product Detail Pages
-- 📞 Contact Page
-- ℹ️ About Page
-- 🔐 Login Page
+Venora is a front-end fashion e-commerce website designed to provide users with a premium online shopping experience. The application includes product browsing, curated collections, an interactive outfit builder, wishlist management, shopping cart functionality, and responsive layouts optimized for desktop and mobile devices.
 
 ---
 
-## 🧰 Technologies Used
+## Features
+
+- Responsive Home Page
+- Product Shop
+- Fashion Collections
+- Product Details Page
+- Outfit Builder
+- Wishlist
+- Shopping Cart
+- Search Functionality
+- Login Page
+- About Page
+- Contact Page
+- Responsive Design
+- Smooth UI Animations
+
+---
+
+## Technologies Used
 
 - HTML5
 - CSS3
@@ -46,91 +43,54 @@ The website includes dedicated shopping pages, curated fashion collections, prod
 
 ---
 
-## 📂 Folder Structure
+## Project Structure
 
 ```
-Women's-Fashion-Store
+Women's-Fashion-Store/
 │
 ├── css/
 ├── js/
 ├── images/
-├── icons/
-├── fonts/
 ├── pages/
-│
 ├── home.html
 ├── index.html
-├── README.md
+└── README.md
 ```
 
 ---
 
-## 📄 Website Pages
-
-- Home
-- Shop
-- Collections
-- Product Details
-- Outfit Builder
-- Wishlist
-- Cart
-- Search
-- Login
-- About
-- Contact
-
----
-
-## 📱 Responsive Design
+## Responsive Design
 
 The website is optimized for:
 
-- 💻 Desktop
-- 💼 Laptop
-- 📱 Tablet
-- 📲 Mobile Devices
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
 
 ---
 
-## ⭐ Project Highlights
-
-- Luxury fashion-inspired user interface
-- Interactive Outfit Builder
-- Mobile-first responsive layouts
-- Product collections with multiple categories
-- Wishlist and shopping cart pages
-- Smooth scrolling and hover animations
-- Clean, organized folder structure
-- Beginner-friendly code organization
-
----
-
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - User Authentication
 - Payment Gateway Integration
 - Backend Database
-- Order Tracking
-- Product Reviews & Ratings
+- Order Management
+- Product Reviews
 - Admin Dashboard
-- Online Checkout System
 
 ---
 
-## 👨‍💻 Developed By
+## Developer
 
-** Bandari Praharsha **
+** Bandari Praharsha**
 
-🎓 B.Tech – Electronics & Communication Engineering
+GitHub: https://github.com/bandaripraharsha
 
-GitHub:
-https://github.com/bandaripraharsha
-
-Live Website:
-https://venora-fashion-store.netlify.app/
+Live Website: https://venora-fashion-store.netlify.app/
 
 ---
 
-## 📜 License
+## License
 
-This project was developed for learning, portfolio, and educational purposes.
+This project was developed for educational and portfolio purposes.
