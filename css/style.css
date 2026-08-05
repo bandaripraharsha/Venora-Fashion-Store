@@ -997,3 +997,73 @@ height:260px;
 
     display:block;
 }
+/*=========================================
+      CATEGORY MOBILE FIX
+=========================================*/
+
+@media (max-width:768px){
+
+    .categories .row{
+        row-gap:15px !important;
+    }
+
+    .category-card{
+        padding:10px;
+    }
+
+    .category-image img{
+        height:110px;
+        object-fit:cover;
+        border-radius:12px;
+    }
+
+    .category-card h4{
+        font-size:15px;
+        margin-top:10px !important;
+    }
+
+    .category-btn{
+        font-size:12px;
+    }
+
+}
+/*=========================================
+   COLLECTION MOBILE PRODUCT FIX
+=========================================*/
+
+@media (max-width:768px){
+
+    .collection-section .product-card{
+        padding:8px;
+        border-radius:16px;
+    }
+
+    .collection-section .product-card img{
+        height:185px;
+        object-fit:contain;
+        padding:4px;
+    }
+
+    .collection-section .product-info{
+        padding:8px;
+    }
+
+    .collection-section .product-info h5{
+        font-size:14px;
+        line-height:1.25;
+        min-height:38px;
+    }
+
+    .collection-section .product-info p{
+        font-size:18px;
+        margin-bottom:8px;
+    }
+
+    .collection-section .product-info .btn{
+        width:100%;
+        border-radius:8px !important;
+        padding:8px 0;
+        font-size:13px;
+    }
+
+}

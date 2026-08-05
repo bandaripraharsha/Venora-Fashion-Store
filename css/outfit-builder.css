@@ -324,7 +324,7 @@ img{
 
 .outfit-preview{
 
-    max-width:900px;
+    max-width:1000px;
 
     margin:70px auto;
 
@@ -618,9 +618,10 @@ width: 200px;
 
     .outfit-right{
 
-        padding-top:0;
+    padding-top:20px;
+    justify-content:center;
 
-    }
+}
 
     .top-preview img,
     .bottom-preview img{
@@ -709,5 +710,68 @@ width: 200px;
 
     background:#333;
     transform:translateY(-2px);
+
+}
+@media (max-width:768px){
+
+    .outfit-preview{
+        padding:20px;
+    }
+
+    .preview-layout{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:20px;
+    }
+
+    .outfit-left,
+    .outfit-right{
+        width:100%;
+        align-items:center;
+        justify-content:center;
+        padding:0;
+    }
+
+    .preview-item{
+        width:100%;
+        min-height:auto;
+    }
+
+    .product-row{
+        justify-content:center;
+        gap:12px;
+    }
+
+    .top-preview img{
+        width:180px;
+        max-height:220px;
+    }
+
+    .bottom-preview img{
+        width:190px;
+    }
+
+    .shoes-preview img{
+        width:130px;
+    }
+
+    .bag-preview img{
+        width:130px;
+    }
+
+    .bottom-content{
+        min-width:150px;
+    }
+
+    .price-tag{
+        left:5px;
+        font-size:12px;
+        padding:6px 10px;
+    }
+
+    .price-tag::after{
+        width:8px;
+    }
 
 }

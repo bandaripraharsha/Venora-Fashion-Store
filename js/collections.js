@@ -36,7 +36,7 @@ function loadCollection(collectionName, containerId, showAll = false) {
 
         container.innerHTML += `
 
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6 col-4">
 
             <div class="product-card">
 
